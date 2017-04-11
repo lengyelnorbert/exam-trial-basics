@@ -33,3 +33,11 @@ The application is accepted if:
 
 ### How can you generate a random number? [2p]
 #### Your answer: [add your answer here]
+At first you have to import the Random package
+import java.util.Random;
+
+with the command you get a random number between zero, and not reaching one,
+Random rand = new Random();
+
+int  n = rand.nextInt(50);
+you can setup the integer you wish to get your random number in as in the example up.
